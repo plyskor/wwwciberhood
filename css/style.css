@@ -67,7 +67,7 @@ hr {
   font-size: 32px !important;
 }
 
-#work,#about, #team, 
+#wedo,#tienda, #equipo, 
 #portfolio, #pricing, #contact {
    padding-top: 100px;
   padding-bottom: 100px;
@@ -320,19 +320,19 @@ home section
 /* ==========================================================================
 work section
 ========================================================================== */
-#work {
+#wedo {
     text-align: center;
 }
-#work .col-md-4 {
+#wedo .col-md-4 {
   padding: 28px;
   position: relative;
   transition: all 0.4s ease-in-out;
 }
-#work .col-md-4:hover {
+#wedo .col-md-4:hover {
   background-color: #ffffff;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
 }
-#work h3 {
+#wedo h3 {
   font-size: 18px;
 }
 
@@ -340,7 +340,7 @@ work section
 /* ==========================================================================
 about section
 ========================================================================== */
-#about {
+#tienda {
   background: #3B3B3B;
   color: #ffffff;
 }
@@ -388,23 +388,23 @@ about section
 /* ==========================================================================
 team section
 ========================================================================== */
-#team {
+#equipo {
   text-align: center;
 }
-#team h3 {
+#equipo h3 {
   color: #00c6d7;
   font-size: 14px;
   font-weight: bold;
 }
-#team .col-md-3 {
+#equipo .col-md-3 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#team .team-wrapper {
+#equipo .team-wrapper {
   overflow: hidden;
   position: relative;
 }
-#team .team-des {
+#equipo .team-des {
   background-color: rgba(00,00,00,0.6);
   position: absolute;
   color: #ffffff;
@@ -433,18 +433,18 @@ team section
       -ms-flex-direction: column;
           flex-direction: column;
 }
-#team .team-des:hover {
+#equipo .team-des:hover {
  opacity: 1;
 }
-#team img {
+#equipo img {
   margin: 0 auto;
 }
 
-#team .social-icon li a {
+#equipo .social-icon li a {
   color: #fff;
 }
 
-#team .social-icon li a:hover {
+#equipo .social-icon li a:hover {
   color: #00c6d7;
 }
 
