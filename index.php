@@ -3,7 +3,7 @@ if(!empty($_POST['email'])){
 $para      = 'contacto@ciberhood.com';
 $titulo    = '[PETICIÓN] Cliente página web.        '.'Nombre: '.$_POST['name'];
 $mensaje   = $_POST['message']."\r\n".'El correo del cliente es: '.$_POST['email'];
-$cabeceras = 'From: webmaster@ciberhood.com'."\r\n".'X-Mailer: PHP/'.phpversion();
+$cabeceras = 'From: webmaster @ciberhood.com'."\r\n".'X-Mailer: PHP/'.phpversion();
 
 mail($para, $titulo, $mensaje, $cabeceras);
 }
@@ -101,7 +101,7 @@ mail($para, $titulo, $mensaje, $cabeceras);
 				<i class="icon-cloud medium-icon"></i>
 					<h3>SERVICIOS DE RED PARA PYMES</h3>
 					<hr>
-					<p>Puesta a punto de servidores web, servidores de correo, servidores de mensajería, servidores de almacenamiento...</p>
+					<p>Puesta a punto de servidores web, servidores de correo, servidores de mensajería, servidores de</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
 				<i class="icon-mobile medium-icon"></i>
@@ -397,7 +397,7 @@ mail($para, $titulo, $mensaje, $cabeceras);
 				</div>
 				<div class="col-md-6 col-sm-4">
 					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> TELÉFONOS</h3>
-					<p>(+34) 91 8971 670</p><p>(+34) 631 145 563</p>
+					<p>(+34) 91 XXX XXXXX</p><p>(+34) 6XX XXX XXX</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-12">
