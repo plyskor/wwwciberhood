@@ -412,8 +412,26 @@ mail($para, $titulo, $mensaje, $cabeceras);
 						<textarea class="form-control" placeholder="Mensaje" rows="7" name="message"></textarea>
 					</div>
 					<div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
-						<input type="submit" class="form-control" value="SEND MESSAGE">
+						<input type="submit" class="form-control" data-toggle="modal" data-target="#modalContact" value="SEND MESSAGE">
 					</div>
+					<div id="modalContact" class="modal fade" role="dialog">
+  						<div class="modal-dialog">
+    					<!-- Modal content-->
+    					<div class="modal-content">
+      					<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">&times;</button>
+        				<h4 class="modal-title">¡Muchas Garcias!</h4>
+      					</div>
+      					<div class="modal-body">
+        				<p>Hemos recibido su mensaje y le atenderemos cuanto antes en horario comercial.</p>
+      					</div>
+      					<div class="modal-footer">
+        				<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 				</form>
 			</div>
 		</div>
