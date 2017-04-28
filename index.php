@@ -397,7 +397,7 @@ mail($para, $titulo, $mensaje, $cabeceras);
 				</div>
 				<div class="col-md-6 col-sm-4">
 					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> TELÉFONOS</h3>
-					<p>(+34) 91 XXX XXXXX</p><p>(+34) 6XX XXX XXX</p>
+					<p>(+34) 91 8971 670</p><p>(+34) 631 145 563</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-12">
