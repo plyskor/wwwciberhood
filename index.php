@@ -1,8 +1,8 @@
 <?php
 if(!empty($_POST['email'])){
 $para      = 'contacto@ciberhood.com';
-$titulo    = '[PETICIÓN] Cliente página web '.$_POST['name'];
-$mensaje   = $_POST['message'].'El correo del cliente es: '.$_POST['email'];
+$titulo    = '[PETICIÓN] Cliente página web.        '.'Nombre: '.$_POST['name'];
+$mensaje   = $_POST['message'].'\nEl correo del cliente es: '.$_POST['email'];
 $cabeceras = 'From: postmaster@ciberhood.com\r\n'.'X-Mailer: PHP/'.phpversion();
 
 mail($para, $titulo, $mensaje, $cabeceras);
