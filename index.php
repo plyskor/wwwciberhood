@@ -1,20 +1,11 @@
 <?php
-if(!empty($_POST['email'])){
-$para      = 'contacto@ciberhood.com';
-$titulo    = '[PETICIÓN] Cliente página web.        '.'Nombre: '.$_POST['name'];
-$mensaje   = $_POST['message']."\r\n".'El correo del cliente es: '.$_POST['email'];
-$cabeceras = 'From: webmaster @ciberhood.com'."\r\n".'X-Mailer: PHP/'.phpversion();
-$modal =   "<script>$(document).ready(function(){
-         $('#modalContact').modal('show')
-      });</script>";
-
-
-
- // after running other script
- echo $modal; 
-
-mail($para, $titulo, $mensaje, $cabeceras);
-}
+	if(!empty($_POST['email'])){
+		$para      = 'contacto@ciberhood.com';
+		$titulo    = '[PETICIÓN] Cliente página web.        '.'Nombre: '.$_POST['name'];
+		$mensaje   = $_POST['message']."\r\n".'El correo del cliente es: '.$_POST['email'];
+		$cabeceras = 'From: webmaster @ciberhood.com'."\r\n".'X-Mailer: PHP/'.phpversion();
+		mail($para, $titulo, $mensaje, $cabeceras);
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -422,6 +413,11 @@ mail($para, $titulo, $mensaje, $cabeceras);
 					<div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
 						<input type="submit" class="form-control"  value="Envía un mensaje">
 					</div>
+					<script type="text/javascript"> 
+       $(document).ready(function(){
+           $('#modalContact').modal('show');
+       });
+</script>
 					<div id="modalContact" class="modal fade" role="dialog">
   						<div class="modal-dialog">
     					<!-- Modal content-->
