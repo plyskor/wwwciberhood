@@ -1,5 +1,5 @@
 <?php
-if(!empty($_POST['mail'])){
+if(!empty($_POST['email'])){
 $para      = 'contacto@ciberhood.com';
 $titulo    = '[PETICIÓN] Cliente página web '.$_POST['name'];
 $mensaje   = $_POST['message'].'El correo del cliente es: '.$_POST['email'];
