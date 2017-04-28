@@ -101,7 +101,7 @@ mail($para, $titulo, $mensaje, $cabeceras);
 				<i class="icon-cloud medium-icon"></i>
 					<h3>SERVICIOS DE RED PARA PYMES</h3>
 					<hr>
-					<p>Puesta a punto de servidores web, servidores de correo, servidores de mensajería, servidores de</p>
+					<p>Puesta a punto de servidores web, servidores de correo, servidores de mensajería, almacenamiento...</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
 				<i class="icon-mobile medium-icon"></i>
